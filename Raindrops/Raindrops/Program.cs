@@ -6,18 +6,26 @@ namespace RaindropsApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a number: ");
-            bool success = Int32.TryParse(Console.ReadLine(), out int n);
+            bool success;
 
-            if (success)
+            do
             {
-                Console.WriteLine(PlingPlangPlong(n));
-            }
+                Console.WriteLine("Please enter a number: ");
+                success = Int32.TryParse(Console.ReadLine(), out int n);
 
-            else
-            {
-                Console.WriteLine("Please enter a valid number");
+                if (success)
+                {
+                    Console.WriteLine(PlingPlangPlong(n));
+                    success = true;
+                }
+
+                else
+                {
+                    Console.WriteLine("Invalid Number!");
+                }
             }
+            while (success == false);
+            
 
         }
 

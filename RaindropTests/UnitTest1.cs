@@ -12,6 +12,7 @@ namespace RaindropsTests
         [TestCase(21, "PlingPlong")]
         [TestCase(70, "PlangPlong")]
         [TestCase(105, "PlingPlangPlong")]
+        [TestCase(0, "PlingPlangPlong")]
         [TestCase(34, "34")]
         public void WhenAValidIntegerIsPassedToTheMethod_TheCorrectStringIsReturned(int num, string expectedResult)
         {
