@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaindropsApp", "RaindropsApp\RaindropsApp.csproj", "{7DA0BD73-DEDB-4B2C-8118-E95F28A876A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaindropTests", "RaindropTests\RaindropTests.csproj", "{2D853A58-B52B-46A2-B2EC-4C9255FA27C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA0BD73-DEDB-4B2C-8118-E95F28A876A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA0BD73-DEDB-4B2C-8118-E95F28A876A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA0BD73-DEDB-4B2C-8118-E95F28A876A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA0BD73-DEDB-4B2C-8118-E95F28A876A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D853A58-B52B-46A2-B2EC-4C9255FA27C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D853A58-B52B-46A2-B2EC-4C9255FA27C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D853A58-B52B-46A2-B2EC-4C9255FA27C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D853A58-B52B-46A2-B2EC-4C9255FA27C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43C12E08-C776-475C-860E-4BCBFE57A081}
+	EndGlobalSection
+EndGlobal
