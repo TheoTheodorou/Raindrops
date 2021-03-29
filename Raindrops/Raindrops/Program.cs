@@ -2,12 +2,12 @@
 
 namespace RaindropsApp
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Please enter a number: ");
-            bool success = Int32.TryParse(Console.ReadLine(),out int n);
+            bool success = Int32.TryParse(Console.ReadLine(), out int n);
 
             if (success)
             {
